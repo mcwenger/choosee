@@ -2,8 +2,7 @@
 
 Get ExpressionEngine select dropdown, checkbox, multiselect or radio options from the CP on the front-end. Can grab options from EE fields or P&amp;T fields, inside or outside of a Grid or Matrix.
 
-
-## Parameters
+### Parameters
 	
 * **field=""** // REQUIRED: The name of the field to find options for.
 	* field="field_name" (field)
@@ -20,9 +19,8 @@ Get ExpressionEngine select dropdown, checkbox, multiselect or radio options fro
 
 * **backspace=""** // Same as other EE backspace parameters.
 
+### Variables:
 
-Variables:
----------------------------------------
 	{option}
 	{value}
 	{selected} // outputs 'selected="selected"' if {value} or {option} equals value parameter
