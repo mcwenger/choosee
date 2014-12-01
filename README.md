@@ -5,20 +5,20 @@ Get ExpressionEngine select dropdown, checkbox, multiselect or radio options fro
 
 ## Parameters
 	
-* field="" // REQUIRED: The name of the field to find options for.
+* **field=""** // REQUIRED: The name of the field to find options for.
 	* field="field_name" (field)
 	* field="col_id_X" (direct Matrix column query)
 	* field="field_name:column_name" (Matrix column query using names)
 
-* use="" // set to 'matrix' or 'grid' when getting options for a column. If Matrix is installed, 'matrix' will be assumed, otherwise 'grid' will be assumed.
+* **use=""** // set to 'matrix' or 'grid' when getting options for a column. If Matrix is installed, 'matrix' will be assumed, otherwise 'grid' will be assumed.
 
-* value="" // Pass in a value for comparison - to use in conjunction with {selected} or {checked}. Multiple values can be pipe separated (|) - see examples below.
+* **value=""** // Pass in a value for comparison - to use in conjunction with {selected} or {checked}. Multiple values can be pipe separated (|) - see examples below.
 
-* allow_empty="" // Include empty value option in list (yes/no, true/false) - defaults to 'yes'.
+* **allow_empty=""** // Include empty value option in list (yes/no, true/false) - defaults to 'yes'.
 
-* allow_numeric_key="" // Allow key to be numeric when checking for {checked} or {selected}? Needed due to difference between EE and P&T options configuration/arrays (yes/no, true/false) - defaults to 'no'.
+* **allow_numeric_key=""** // Allow key to be numeric when checking for {checked} or {selected}? Needed due to difference between EE and P&T options configuration/arrays (yes/no, true/false) - defaults to 'no'.
 
-* backspace="" // Same as other EE backspace parameters.
+* **backspace=""** // Same as other EE backspace parameters.
 
 
 Variables:
