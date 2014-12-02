@@ -1,12 +1,12 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 $plugin_info = array(
-	'pi_name'		=> 'Choos:ee',
-	'pi_version'	=> '1.0',
-	'pi_author'		=> 'Mike Wenger',
-	'pi_author_url'	=> 'http://www.m-wenger.com',
-	'pi_description'=> 'Allows for front-end output of select, multi-select, checkbox or radio options from an EE field or P&T Fieldpack field - inside or outside of a Matrix',
-	'pi_usage'		=> choosee::usage()
+	'pi_name'        => 'Choos:ee',
+	'pi_version'     => '1.0',
+	'pi_author'      => 'Mike Wenger',
+	'pi_author_url'  => 'http://www.m-wenger.com',
+	'pi_description' => 'Allows for front-end output of select, multi-select, checkbox or radio options from an EE field or P&T Fieldpack field - inside or outside of a Matrix',
+	'pi_usage'       => choosee::usage()
 );
 
 class Choosee {
