@@ -192,11 +192,11 @@ class Choosee {
 			
 				$count++;
 				$variables[] = array(
-					'option' => $option,
-					'value' => $key,
-					'selected' => $this->_is_checked_or_selected($key,$option,$passed_in,'selected',$delimiter,$allow_numeric_key),
-					'checked' => $this->_is_checked_or_selected($key,$option,$passed_in,'checked',$delimiter,$allow_numeric_key),
-					'option_count' => $count,
+					'option'        => $option,
+					'value'         => $key,
+					'selected'      => $this->_is_checked_or_selected($key,$option,$passed_in,'selected',$delimiter,$allow_numeric_key),
+					'checked'       => $this->_is_checked_or_selected($key,$option,$passed_in,'checked',$delimiter,$allow_numeric_key),
+					'option_count'  => $count,
 					'total_options' => count($options)
 				);
 			}
